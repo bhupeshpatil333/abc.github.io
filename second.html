@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Second Page</title>
+    <style>
+        .scroll-image {
+            border: 2px solid black;
+            width: 30%;
+            height: 400px;
+            position: absolute;
+            left: 18%;
+            top: 61%;
+            transform: translate(-50%, -50%);
+            background-image: url(images/food1.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            box-shadow: 1px 2px 10px 5px white;
+            animation: slider 15s infinite linear;
+        }
+
+        .scroll-image2 {
+            border: 2px solid black;
+            width: 100%;
+            height: 400px;
+            position: absolute;
+            left: 265%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url(images/food1.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            box-shadow: 1px 2px 10px 5px white;
+            animation: slider2 15s infinite linear;
+        }
+
+        .scroll-image {
+            color: blue;
+        }
+
+        @keyframes slider {
+            0% {
+
+                background-image: url(images/Veg\ pulao.jpg);
+            }
+
+            30% {
+                background-image: url(images/Bhindi\ Masala.jpg);
+            }
+
+            60% {
+                background-image: url(images/chhole\ bhature.jpg);
+            }
+
+            100% {
+                background-image: url(images/Panner\ Masala.jpg);
+            }
+        }
+
+        .scroll-image2 {
+            color: red;
+        }
+
+        @keyframes slider2 {
+            0% {
+                background-image: url(images/Fish\ tikka.jpg);
+            }
+
+            30% {
+                background-image: url(images/Biryani.jpg);
+            }
+
+            60% {
+                background-image: url(images/Chicken\ chilli.jpg);
+            }
+
+            100% {
+                background-image: url(images/Mutton\ Masala.jpg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="full-page">
+            <div class="navbar">
+                <img src="images/logo-cropped.png" alt="Logo">
+                <nav>
+
+                    <ul class="social">
+                        <li><a href="first.html" class="login">Home</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <table>
+                <tr>
+                    <td class="v1"> <a href="#veg">Veg</a> </td>
+                    <td class="n1"><a href="#nonveg"> NonVeg</a></td>
+                </tr>
+            </table>
+            <div class="menu1-name">
+                <ul type="none">
+                    <p>
+                        <li class="v1">
+                            <h1>Vegetarian</h1>
+                        </li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li>
+                            <h2>Standard Meal</h2>
+                        </li>
+                        <li>
+                            <h2>Meal Includes</h2>
+                        </li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li>
+                            <h4>1 Veg Dish</h4>
+                        </li>
+                        <li>
+                            <h4>1 Dal</h4>
+                        </li>
+                        <li>
+                            <h4>3 Roties</h4>
+                        </li>
+                        <li>
+                            <h4>1 Rice</h4>
+                        </li>
+                        <li>
+                            <h4>1 Raita / Salad / Dessert</h4>
+                        </li>
+                        <li>
+                            <h1>Price per Meal</h1>
+                        </li>
+                        <li>
+                            <h1>Rs 110* </h1>
+                        </li>
+                        <li>
+                            <h4>in the Monthly Meal Plan</h4>
+                        </li>
+
+                    </p>
+
+                </ul>
+            </div>
+            <div class="menu2-name">
+                <ul type="none">
+                    <p>
+                        <li>
+                            <h1>Non-Vegetarian</h1>
+                        </li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li>
+                            <h2>Standard Meal</h2>
+                        </li>
+                        <li>
+                            <h2>Meal Includes</h2>
+                        </li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li>
+                            <h4>1 Non Veg Dish</h4>
+                        </li>
+                        <li>
+                            <h4>1 Dal</h4>
+                        </li>
+                        <li>
+                            <h4>3 Roties</h4>
+                        </li>
+                        <li>
+                            <h4>1 Rice</h4>
+                        </li>
+                        <li>
+                            <h4>1 Raita / Salad / Dessert</h4>
+                        </li>
+                        <li>
+                            <h1>Price per Meal</h1>
+                        </li>
+                        <li>
+                            <h1>Rs 150* </h1>
+                        </li>
+                        <li>
+                            <h4>in the Monthly Meal Plan</h4>
+                        </li>
+
+                    </p>
+                </ul>
+            </div>
+            <div class="scroll-image">
+                <div class="scroll-image2">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="center-side">
+
+
+        <br>
+        <hr>
+        <br>
+        <section class="middle">
+            <p>
+                A food is something that provides nutrients. ... energy for activity, growth,
+                and all functions of the body such as breathing, digesting food,
+                and keeping warm; materials for the growth and repair of the body,
+                and for keeping the immune system healthy.
+            </p>
+            <br>
+            <hr>
+
+            <br>
+
+            <h1 class="items">Menu</h1>
+            <br><br>
+            <hr>
+            <center>
+                <h2 class="Veg-items"><a name="veg">Veg Items</a></h2>
+            </center>
+            <br>
+            <div class="images1">
+                <ul>
+                    <li><a href="#"><img src="images/Veg pulao.jpg" alt="Veg pulao" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Panner Masala.jpg" alt="Panner Masala" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Aloo sabji.jpg" alt="Aloo sabji" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/chhole bhature.jpg" alt="chhole bhature" height="140" width="140"></a>
+                    </li>
+                    <li><a href="#"><img src="images/Bhindi Masala.jpg" alt="Bhindi Masala" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/sev bhaji.jpg" alt="sev bhaji" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Palak-Paneer-.jpg" alt="Palak-Paneer" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/baingan bharta.jpg" alt="baingan bharta" height="140" width="140"></a>
+                    </li>
+                </ul>
+                <div class="names1">
+                    <ul type="none">
+                        <li>Veg Pulao</li>
+                        <li>Panner Masala </li>
+                        <li>Aloo Sabji</li>
+                        <li>Chhole Bhature</li>
+                        <li>Bhendi Masala</li>
+                        <li>Shev Bhaji</li>
+                        <li>Palak Panner</li>
+                        <li>Baingan Bharta</li>
+                    </ul>
+                   
+                </div>
+                <br>
+                <hr>
+
+                <br>
+            </div>
+            <center>
+                <h2 class="Nonveg-items"><a name="nonveg">NonVeg Items</h2></a>
+            </center>
+
+            <br>
+            <div class="images2">
+                <ul>
+                    <li><a href="#"><img src="images/Biryani.jpg" alt="Biryaani" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Chicken Masala.jpg" alt="Chikan Masala" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Mutton Masala.jpg" alt="Mutton Masala" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Anda Curry.jpg" alt="Anda Curry" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Anda Bhurji.jpg" alt="Anda Bhurji" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Chicken chilli.jpg" alt="Chicken Chilli" height="140" width="140"></a>
+                    </li>
+                    <li><a href="#"><img src="images/Fish tikka.jpg" alt="Fish Tikka" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Chicken Curry.jpg" alt="Chicken Curry" height="140" width="140"></a></li>
+                </ul>
+                <div class="names2">
+                    <ul type="none">
+                        <li>Biryaani </li>
+                        <li>Chikan Masala</li>
+                        <li>Mutton Masala</li>
+                        <li>Anda Curry</li>
+                        <li>Anda Bhurji</li>
+                        <li>Chicken Chilli</li>
+                        <li>Fish Tikka</li>
+                        <li>Chicken Curry</li>
+                    </ul>
+                   
+                </div>
+                <br>
+            </div>
+            <br>
+            <hr>
+
+            <br>
+            <center>
+                <h2 class="special">Annapurna Specials</h2>
+            </center>
+
+            <br>
+            <div class="images3">
+                <ul>
+                    <li><a href="#"><img src="images/Veg pulao.jpg" alt="Veg pulao" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Khichdi.jpg" alt="Khichadi" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Daal Bhat.jpg" alt="Daal Bhat" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Puran Poli.jpg" alt="Puran Poli" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Dum Biryani.jpg" alt="Dum Biryaani" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Daal Tadka.jpg" alt="Daal Tadka" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/kaju curry .jpg" alt="Kaju kari" height="140" width="140"></a></li>
+                    <li><a href="#"><img src="images/Aalu Matar.jpg" alt="Aalu Matar" height="140" width="140"></a></li>
+                </ul>
+                <div class="names3">
+                    <ul type="none">
+                        <li>Veg pulao</li>
+                        <li>Khichadi</li>
+                        <li>Daal Bhat</li>
+                        <li>Puran Poli</li>
+                        <li>Dum Biryaani</li>
+                        <li>Daal Tadka</li>
+                        <li>Kaju kari</li>
+                        <li>Aalu Matar</li>
+                    </ul>
+                    
+                </div>
+                <br>
+                <hr>
+                <br>
+                <br>
+            </div>
+        </section>
+        <section class="footer">
+            <ul type="none">
+                <li><a href="first.html">Home</a></li>
+
+            </ul>
+        </section>
+
+
+    </section>
+
+</body>
+
+</html>
